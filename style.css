@@ -297,3 +297,23 @@ Shipping
 .submission form input {
   width: 50%;
 }
+
+/* ####################
+#######################
+Thankyou
+######################
+################### */
+
+
+.thankyou {
+  color: white;
+  text-align: center;
+  font-family: "roboto";
+}
+
+.thankyou button {
+  background-color: #FFE200;
+  border: none;
+  font-size: 30px;
+  border-radius: 10px;
+}
