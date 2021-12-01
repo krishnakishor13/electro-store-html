@@ -163,7 +163,7 @@ footer button {
 
 /* ####################
 #######################
-SIGN IN
+SIGN IN and SIGN UP
 ######################
 ################### */
 
@@ -225,4 +225,75 @@ form input {
 
 .bg .signin .spansignin {
   color: #FFE200;
+}
+
+
+/* ####################
+#######################
+Shipping
+######################
+################### */
+
+
+.shipping {
+  background-color: #FFE200;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.shipping h2 {
+  color: #313636;
+  padding: 60px;
+}
+
+.checkout {
+  font-family: "roboto";
+}
+
+.checkout h3 {
+  color: white;
+  text-align: center;
+}
+
+.checkout h2 {
+  color: #FFE200;
+}
+
+.checkout .total {
+  display: flex;
+  justify-content: space-around;
+}
+
+.checkout .total h2 {
+  color: white;
+}
+
+.checkout .shiptag {
+  display: flex;
+  justify-content: space-around;
+}
+
+.checkout h4 {
+  color: #FFE200;
+}
+
+.submission form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 25px;
+  border-radius: 5px;
+  font-family: "Roboto";
+  border: none;
+}
+
+.submission form label {
+  color: white;
+  padding: 0 0 7px;
+  margin-top: 5px;
+}
+
+.submission form input {
+  width: 50%;
 }
