@@ -23,6 +23,7 @@ navigation Menu
   display: flex;
   width: 100%;
   background-color: #484848;
+  font-family: "Copperplate";
 }
 
 .nav .navbar {
@@ -111,8 +112,7 @@ Items
 .items .pricetag .button {
   background-color: #FFE200;
   border: 0;
-  border-radius: 15px;
-  width:18%;
+  width: 20%;
   font-size: 18px;
   height: 60%;
 }
@@ -120,7 +120,7 @@ Items
 @media screen and (max-width:450px) {
   .items .pricetag .button {
     font-size: 14px;
-    width: 20%;
+    width: 30%;
   }
   .items .names h2 {
     font-size: 23px;
@@ -143,18 +143,86 @@ footer {
 }
 
 footer p {
-  font-size: 20px;
+  font-size: 25px;
   color: #fff;
+  padding: 0 20px;
 }
+
 footer button {
   background-color: #FFE200;
-  padding: 10px 30px;
-  border-radius: 10px;
-  font-size: 50px;
+  padding: 0px 30px;
+  border: 0;
+  font-size: 40px;
 }
 
 @media screen and (max-width:450px) {
   footer button {
     font-size: 20px;
   }
+}
+
+/* ####################
+#######################
+SIGN IN
+######################
+################### */
+
+.scroll {
+  opacity: 0.3;
+}
+
+.bg {
+  position: fixed;
+  background-color: #495050;
+  z-index: 1;
+  width: 50%;
+  height: 50%;
+  margin: 0%;
+  text-align: center;
+  left: 25%;
+  top: 20%;
+  border-radius: 15px;
+}
+
+.bg .signin h2 {
+  color: white;
+  font-family: "Copperplate";
+}
+
+.bg .signin h1 {
+  color: #FFE200;
+  font-family: "Copperplate";
+}
+
+.bg .signin .shop {
+  color: #FFE200;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 25px;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #FFE200;
+  border: none;
+  border-radius: 10px;
+}
+
+form input {
+  margin-bottom: 5px;
+}
+
+.bg .signin p {
+  color: white;
+}
+
+.bg .signin .signinspan {
+  color: #FFE200;
+}
+
+.bg .signin .spansignin {
+  color: #FFE200;
 }
